@@ -1,0 +1,342 @@
+body{
+    width: 40%;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+section.section1{
+    
+    
+}
+
+.logonicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menucontain{
+    margin: 0rem 6rem;
+    
+}
+
+.logocontain{
+    margin: 0rem 6rem;
+    
+}
+
+.fullimage1{
+    background-image: url(../IMAGES/hero-bg.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    
+}
+
+
+.fullimage2{
+    display: flex;
+    height: 25rem;
+   justify-content: center;
+   flex-grow:1 ;
+   margin-bottom: 10rem;
+}
+
+
+.headertext{
+    
+    margin: 3rem auto;
+    width: fit-content;
+
+    
+
+}
+
+
+.horizontalrule{
+    width: 100%;
+    font-weight: 1000;
+    height: 10px;
+    background-color: white;
+    border: none;
+    margin-top: 0rem;
+    padding: 0rem;
+}
+
+
+hr.horizontalrule2{
+    width: 100%;
+    font-weight: 1000;
+    height: 10px;
+    background-color: rgb(172, 27, 27);
+    border: none;
+    
+    
+    
+}
+
+.greybackground{
+    background-color: rgb(197, 195, 195);
+    
+}
+
+.textsection{
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    
+    
+}
+
+
+
+button{
+    color: white;
+    background-color: red;
+    border: none;
+    height: 3rem;
+    width:9rem;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.plumberimagecontain{
+    display: flex;
+    
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 20rem;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 1.5rem 0rem;
+
+}
+
+.section3 .techhelp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+
+
+.text{
+    width: 70%;
+    text-align: center;
+    margin: auto ;
+    margin: 1rem auto;
+}
+
+.text1{
+    width: 70%;
+    margin: 1rem auto 2.5rem auto;
+}
+
+
+.text2{
+    width: 40%;
+    margin-left: 5rem;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+
+.iconcontainer{
+    
+    background-color: rgb(206, 32, 32);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    rotate: 45%;
+    padding: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.section5content{
+    
+    width: 70%;
+    margin: auto;
+}
+
+.section6{
+    background-color: #104e92;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.imagecol{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2{
+    color: white;
+}
+.aboutimagecontain{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-flow: column;
+    flex-basis: auto;
+    width:25rem;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+
+}
+
+.section7content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.button2{
+    border: 0.5px solid;
+    color: black;
+    background-color: white;
+    margin: 0rem auto 1rem auto;
+    
+    border-radius: 0.2rem;
+    
+}
+
+.alignnorm{
+    align-content: ;
+}
+
+
+.footersection{
+    background-color: rgb(77, 77, 77);
+    height: 7rem;
+    color: white;
+    padding-top: 1rem;
+}
+
+
+.lineheight{
+    line-height: 1.6rem;
+}
+
+.lineheight2{
+    line-height: 2rem;
+}
+
+h1.h1-thin{
+    font-weight: 390;
+    font-size: 2.5rem;
+    line-height: 0;
+    
+}
+
+
+h1.h1-regular{
+    font-weight: normal;
+    font-size:3rem;
+    line-height: 0;
+    padding-top: 0px;
+
+}
+
+h1.h1-thick{
+    font-weight: 20rem;
+    font-size:4rem;
+    line-height: 0rem;
+    padding-top: 0px;
+    padding-bottom: 0rem;
+    
+}
+
+
+.whitetext{
+    color: white;
+}
+
+.greytext{
+    color: rgb(134, 134, 134);
+    font-weight: 400;
+
+}
+
+.blacktext{
+    color: black;
+}
+
+.redtext{
+    color: red;
+}
+
+.bluetext{
+    color: #104e92;
+}
+
+h2.tittletext{
+    font-size: 3.1rem;
+    margin-bottom: 0rem;
+    
+    
+}
+
+h2.tittletext1{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    margin: 2rem;
+    text-align: left;
+}
+
+h2.tittletext1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2rem 0rem;
+    text-align: left;
+    
+}
+
+p.paragraphtext{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.7rem;
+}
+
+.aligncenter{
+    text-align: center;
+}
+
+.paragraphtext1{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.7rem;
+    text-align: left;
+    font-weight: 350;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.services{
+    margin-top: 2.5rem;
+}
