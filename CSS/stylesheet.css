@@ -1,14 +1,19 @@
-body{
-    width: 40%;
-    margin: 0px auto;
-    font-family: 'Roboto', sans-serif;
+
+
+
+*, body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
 }
 
 
 
 section.section1{
+    width: 100vw;
     
+    align-items: center;
     
 }
 
@@ -16,16 +21,29 @@ section.section1{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-content: center;
+    height: 70px;
+}
+
+h3.logosize{
+    font-size: 2rem;
 }
 
 .menucontain{
     margin: 0rem 6rem;
+    
     
 }
 
 .logocontain{
     margin: 0rem 6rem;
     
+    
+}
+
+.menuicon{
+    height: 30px;
+    width: 30px;
 }
 
 .fullimage1{
@@ -33,33 +51,58 @@ section.section1{
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    align-content: flex-end;
-    
+    height: 50rem;
+    display: flex;  
 }
 
 
 .fullimage2{
+    
+    width: 50%;
     display: flex;
-    height: 25rem;
-   justify-content: center;
-   flex-grow:1 ;
-   margin-bottom: 10rem;
+    padding-left: 100px;
+    
+    
 }
 
 
-.headertext{
+.section4image{
+    background-image: url(../IMAGES/billionphotos1079319min.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 100vh;
     
-    margin: 3rem auto;
-    width: fit-content;
-
-    
-
 }
+
+.section4-col{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+section.section2 .fullimage1 .headertextcontainer .headertext{
+    height: fit-content;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section.section2 .fullimage1 .headertextcontainer{
+    width: 60%;
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+
+
 
 
 .horizontalrule{
@@ -96,7 +139,10 @@ hr.horizontalrule2{
     
 }
 
+.section4{
+    display: flex;
 
+}
 
 button{
     color: white;
@@ -105,33 +151,53 @@ button{
     height: 3rem;
     width:9rem;
     border-radius: 0.2rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
-
-.plumberimagecontain{
-    display: flex;
+    margin: 1.5rem auto 1.5rem auto;
     
-    flex-grow: 1;
-    flex-shrink: 0;
-    height: 20rem;
-    align-content: center;
-    justify-content: center;
-    overflow: hidden;
-    margin: 1.5rem 0rem;
-
 }
 
-.section3 .techhelp{
+
+
+
+ .section3 .section3-row{
+    display: flex;
+    margin: 70px;
+    justify-content: center;
+    
+}
+
+
+
+.section3-col{
+    width: 44%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
-    align-items: center;
+   
 }
 
+.section3-col .normaltextarea{
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    
+}
 
+.imagecontainer{
+    display: flex;
+    width: fit-content;
+    height: auto;
+    padding: 0;
+    
+
+}
+
+.section3textarea{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;   
+
+}
 
 .text{
     width: 70%;
@@ -142,7 +208,11 @@ button{
 
 .text1{
     width: 70%;
-    margin: 1rem auto 2.5rem auto;
+    
+}
+
+.margin-up-down{
+    margin: 2rem auto 2rem auto;
 }
 
 
@@ -156,13 +226,20 @@ button{
     align-content: flex-start;
 }
 
+.lineheight-0{
+    line-height: 0;
+
+}
+
+
 
 .iconcontainer{
     
     background-color: rgb(206, 32, 32);
-    width: 2rem;
-    height: 2rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
+    border: none;
     rotate: 45%;
     padding: 1rem;
     display: flex;
@@ -170,43 +247,106 @@ button{
     justify-content: center;
 }
 
+.section5{
+    padding: 30px 90px 90px 90px;
+}
+
 .section5content{
-    
-    width: 70%;
+    display: flex;
+    justify-content: space-between;
     margin: auto;
 }
 
-.section6{
-    background-color: #104e92;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+
+.section6box{
+    background-color: royalblue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
 }
 
-.imagecol{
+.section6-text{
+    width: 70%;
+    margin: 0 0 0 100px ;
+    
+}
+
+.section6-col{
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding: 20px 0 60px 0;
     align-items: center;
+    
+
+}
+
+.section6-row{
+    display: flex;
+    width: 60%;
+    align-items: center;
+
+}
+.serviceimage1{
+    background-image: url(../IMAGES/frg.jpg);
+}
+
+.serviceimage2{
+    background-image: url(../IMAGES/rg.jpg);
+}
+
+.serviceimage3{
+    background-image: url(../IMAGES/billionphotos1882993.jpg);
+}
+
+.serviceimage4{
+    background-image: url(../IMAGES/billionphotos1882951.jpg);
+}
+
+.imagecontain{
+    display: flex;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+    flex-shrink: 0;
+    overflow: hidden;
+    margin: 15px;
+}
+
+h1 .margin-up-40{
+    margin-top: 40px
+}
+
+.padding-10{
+    padding: 10px;
+}
+
+.paddingud-5{
+    padding: 5px 0;
+}
+
+.padding-20{
+    padding: 20px 0;
+}
+
+.margin-20{
+    margin:30px 0;
+}
+
+.marginud-10{
+    margin: 10px 0;
 }
 
 .section2{
     color: white;
 }
-.aboutimagecontain{
-    display: flex;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-flow: column;
-    flex-basis: auto;
-    width:25rem;
-    align-content: center;
-    justify-content: center;
-    overflow: hidden;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    
 
-}
+
 
 .section7content{
     display: flex;
@@ -218,8 +358,7 @@ button.button2{
     border: 0.5px solid;
     color: black;
     background-color: white;
-    margin: 0rem auto 1rem auto;
-    
+    margin: 1rem auto 1rem auto;
     border-radius: 0.2rem;
     
 }
@@ -247,28 +386,34 @@ button.button2{
 
 h1.h1-thin{
     font-weight: 390;
-    font-size: 2.5rem;
-    line-height: 0;
+    font-size: 3.5rem;
+    
     
 }
 
 
-h1.h1-regular{
+h2.h2-regular{
     font-weight: normal;
-    font-size:3rem;
+    font-size:4rem;
     line-height: 0;
     padding-top: 0px;
 
 }
 
-h1.h1-thick{
-    font-weight: 20rem;
-    font-size:4rem;
-    line-height: 0rem;
-    padding-top: 0px;
-    padding-bottom: 0rem;
+h2.h2-thick{
+    font-weight: 15rem;
+    font-size:5.5rem;
+    
     
 }
+
+h2.h2-bold{
+    font-weight: 12rem;
+    font-size:5rem;
+    
+    
+}
+
 
 
 .whitetext{
@@ -294,8 +439,9 @@ h1.h1-thick{
 }
 
 h2.tittletext{
-    font-size: 3.1rem;
+    font-size: 2.6rem;
     margin-bottom: 0rem;
+    padding-left: 0;
     
     
 }
@@ -305,6 +451,15 @@ h2.tittletext1{
     font-weight: bolder;
     margin: 2rem;
     text-align: left;
+}
+
+h3{
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+h2{
+    font-size: 2.3rem;
 }
 
 h2.tittletext1{
@@ -326,11 +481,17 @@ p.paragraphtext{
 }
 
 .paragraphtext1{
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
+    font-size: 1.3rem;
     line-height: 1.7rem;
     text-align: left;
-    font-weight: 350;
+    
+}
+
+.fs{
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    text-align: center;
+    
 }
 
 .italic{
@@ -339,4 +500,371 @@ p.paragraphtext{
 
 .services{
     margin-top: 2.5rem;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+
+
+
+.double-btn{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+@media (max-width: 320px){
+
+    .section1{
+        width: 100%;
+        align-items: center;
+    }
+
+    .fullimage1{
+        height: 20rem;
+        display: flex;  
+        margin: 0;
+    }
+
+
+    .logosize{
+        font-size: 0.5rem;
+    }
+
+    .menucontain{
+        display: flex;
+       
+        align-items: center;
+        margin-right: 2rem;
+
+    }
+
+   .menuicon{
+        height: 25px;
+        width: 25px;
+    }
+
+
+    .logocontain{
+        margin: 0rem 2rem;
+        border: none;
+        
+    }
+
+
+    .logonicon{
+        width: 100vw;
+        margin: 0;
+        border: none;
+    }
+
+    .section2{
+            
+
+    }
+
+    h2.h2-thick{
+        font-weight: 4rem;
+        font-size:2rem;
+        
+        
+    }
+
+    h1.h1-thin{
+        font-weight: normal;
+        font-size: 1rem;    
+        
+    }
+    
+    
+    section.section2 .fullimage1 .headertextcontainer .headertext{
+        height: fit-content;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        
+    }
+    
+    section.section2 .fullimage1 .headertextcontainer{
+        width: 60%;
+        display: flex;
+        align-content: center;
+        border: none;
+        margin-bottom: 20px;
+    }
+
+
+    .section3{
+        padding: auto 20px;
+        text-align: center;
+        
+    }
+
+    .section3 .section3-row{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: auto 20px;
+        border: none;
+        
+    }
+    
+    
+    
+    .section3-col{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        border: none;
+       
+    }
+
+    .section3textarea{
+        width: 90%;
+        border: none;
+    }
+
+    .imagecontainer{
+        display: flex;
+        width: 80%;
+        height: 20rem;
+        border: none;
+        padding: 0;
+    
+    }
+
+    img{
+        width: 320px;
+        margin: 0;
+        border: none;
+    }
+
+
+    .section5content{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        border: none;
+        
+    }
+
+    h2.tittletext{
+        font-size: 1.6rem;
+        margin-bottom: 0rem;
+        padding-left: 0;
+        width: 100%;
+        border: none;
+        
+        
+    }
+
+    .section6box{
+        background-color: royalblue;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0px;
+        border: none;
+        
+    }
+
+    .section6-text{
+        width: 70%;
+        border: none;
+        margin:0 ;
+        
+    }
+    
+    .section6-col{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding: 5px 0 10px 0;
+        border: none;
+        align-items: center;
+        
+    
+    }
+    
+    .section6-row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        border: none;
+    
+    }
+
+    .imagecontain{
+        display: flex;
+        width: 80%;
+        background-position: center;
+        background-size: cover;
+        flex-grow: 1;
+        flex-shrink: 0;
+        overflow: hidden;
+        border: none;
+    }
+
+
+
+    .section4{
+        display: flex;
+        flex-direction: column;
+        border: none;
+    
+    }
+
+    .fullimage2{
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        
+        
+        
+    }
+    
+    
+    .section4image{
+        background-image: url(../IMAGES/billionphotos1079319min.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+        flex-shrink: 0;
+        height: 350px;
+        border: none;
+    }
+    
+    .section4-col{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0 auto;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    button{
+        align-content: center;
+        border-radius: 0.2rem;
+        margin: 1.5rem 2rem 1.5rem 2rem;
+        
+    }
+
+
+    .iconcontainer{
+    
+        background-color: rgb(206, 32, 32);
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: none;
+        rotate: 45%;
+        padding: 0.8rem;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .section5{
+        padding: 30px 20px 30px 20px;
+        width: 100%;
+        border: none;
+        
+    }
+    
+    .section5content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        border: none;
+        
+    }
+
+    .text-align-center{
+        text-align: center;
+        
+    }
+
+    h2.h2-bold{
+        font-weight: 6rem;
+        font-size:2.5rem;
+        
+        
+    }
+
+
+    .section6-text{
+        width: 70%;
+        margin: 30px auto;
+        border: none;
+        
+    }
+
+    .double-btn{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+
+        margin: auto;
+    }
+    
+    .text{
+        width: 90%;
+        text-align: center;
+        margin: auto ;
+        margin: 1rem auto;
+    }
+
+    .section3-col .normaltextarea{
+        border: none;
+    }
+
+    .fs{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    h3{
+        font-size: 1.6rem;
+        margin-top: 10px;
+    }
+    
+    h2{
+        font-size: 2rem;
+    }
+    
+
+
+
+
+
+
+
 }
