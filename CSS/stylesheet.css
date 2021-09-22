@@ -1,6 +1,4 @@
 
-
-
 *, body, html{
     margin: 0;
     padding: 0;
@@ -25,18 +23,18 @@ section.section1{
     height: 70px;
 }
 
-h3.logosize{
+h4.logosize{
     font-size: 2rem;
 }
 
 .menucontain{
-    margin: 0rem 6rem;
+    margin-right: 40px;
     
     
 }
 
 .logocontain{
-    margin: 0rem 6rem;
+    margin-left: 40px;
     
     
 }
@@ -156,26 +154,29 @@ button{
 }
 
 
-
-
- .section3 .section3-row{
-    display: flex;
-    margin: 70px;
-    justify-content: center;
+.section3{
+    padding: 40px;
+    border: none;
+   
+       
     
 }
 
-
+ .section3 .section3-row{
+    display: flex;
+    justify-content: space-between;
+    border: none;   
+}
 
 .section3-col{
-    width: 44%;
+    width: 48%;
     display: flex;
     flex-direction: column;
    
 }
 
 .section3-col .normaltextarea{
-    margin-right: 0;
+    
     width: 100%;
     margin-bottom: 60px;
     margin-top: 20px;
@@ -184,12 +185,21 @@ button{
 
 .imagecontainer{
     display: flex;
-    width: fit-content;
+    width: 100%;
     height: auto;
     padding: 0;
     
 
 }
+
+
+img{
+    width: 100%;
+    border: none;
+}
+
+
+
 
 .section3textarea{
     width: 80%;
@@ -265,12 +275,14 @@ button{
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding: 40px;
     
 }
 
 .section6-text{
-    width: 70%;
-    margin: 0 0 0 100px ;
+    width: 50%;
+    margin: auto 10px;
+    
     
 }
 
@@ -287,7 +299,7 @@ button{
 
 .section6-row{
     display: flex;
-    width: 60%;
+    width: 100%;
     align-items: center;
 
 }
@@ -309,7 +321,7 @@ button{
 
 .imagecontain{
     display: flex;
-    height: 200px;
+    height: 250px;
     background-position: center;
     background-size: cover;
     flex-grow: 1;
@@ -363,9 +375,7 @@ button.button2{
     
 }
 
-.alignnorm{
-    align-content: ;
-}
+
 
 
 .footersection{
@@ -404,17 +414,12 @@ h2.h2-thick{
     font-weight: 15rem;
     font-size:5.5rem;
     
-    
 }
 
 h2.h2-bold{
     font-weight: 12rem;
-    font-size:5rem;
-    
-    
+    font-size:5rem;    
 }
-
-
 
 .whitetext{
     color: white;
@@ -510,7 +515,7 @@ p.paragraphtext{
 
 
 .double-btn{
-    width: 40%;
+    width: 45%;
     display: flex;
     align-items: center;
     align-content: center;
@@ -520,10 +525,267 @@ p.paragraphtext{
 
 
 
+@media (max-width: 768px){
 
+    *, body, html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+        
+    }
+
+    
+    .section1{
+        
+        border: none;
+        align-items: center;
+        align-content: center;
+        
+    
+        
+    }
+
+
+    .logosize{
+        font-size: 1.7rem;
+    }
+
+    .logocontain{
+        margin-left: 40px;
+        border: none;
+        
+    }
+
+    .menucontain{
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+        border: none;
+       
+    }
+
+   .menuicon{
+        height: 25px;
+        width: 25px;
+        border: none;
+    }
+
+    .logonicon{
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        margin: 0;
+        border: none;
+    }
+
+
+    .section3{
+        text-align: center;
+        border: none;
+        display: flex;
+        justify-content: center;   
+        
+    }
+
+    .section3 .section3-row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: none;
+        justify-content: center;
+        
+        
+    }
+    
+    .section3-col{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        
+       
+    }
+
+    .section3textarea{
+        width: 90%;
+        border: none;
+    }
+
+    .imagecontainer{
+        display: flex;
+        width: 100%;
+        height: 25rem;
+        border: none;
+        
+    
+    }
+
+    img{
+        width: 100%;
+        border: none;
+    }
+
+
+
+
+    .section4{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        
+        border: none;
+    
+    }
+
+    .fullimage2{
+        border: none;
+        width: 43%;
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+    
+    
+    .section4image{
+        background-image: url(../IMAGES/billionphotos1079319min.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+        flex-shrink: 0;
+        height: 500px;
+        border: none;
+    }
+    
+    .section4-col{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0 auto;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .iconcontainer{
+    
+        background-color: rgb(206, 32, 32);
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        border: none;
+        rotate: 45%;
+        padding: 0.8rem;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .section5{
+        padding: 30px 25px 30px 25px;
+        width: 100%;
+        border: none;
+        
+    }
+
+    h2.iconlabel{
+        font-size: 0.7rem;
+    }
+    
+    .section5content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        border: none;
+        
+    }
+
+    .services{
+        margin-top: 2rem;
+        border: none;
+        margin: 20px 15px 30px 15px;
+    }
+
+    .section6box{
+        background-color: royalblue;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0px;
+        border: none;
+        
+    }
+
+    .section6-text{
+        width: 60%;
+        border: none;
+        margin: 40px auto 10px auto ;
+        align-content: center;
+        align-items: center;
+        
+    }
+    
+    .section6-col{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        border: none;
+        align-items: center;
+        
+    
+    }
+    
+    .section6-row{
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: space-between;
+        border: none;
+    
+    }
+
+    .imagecontain{
+        display: flex;
+        width: 40%;
+        background-position: center;
+        background-size: cover;
+        flex-grow: 1;
+        flex-shrink: 0;
+        overflow: hidden;
+        border: none;
+    }
+
+    .double-btn{
+        width: 60%;
+        border: none;
+        margin: 0 20px;
+    }
+
+    
+
+
+}
 
 
 @media (max-width: 320px){
+
+    *, body, html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden !important;
+        
+    }
 
     .section1{
         width: 100%;
@@ -537,8 +799,8 @@ p.paragraphtext{
     }
 
 
-    .logosize{
-        font-size: 0.5rem;
+    h4.logosize{
+        font-size: 1.3rem;
     }
 
     .menucontain{
@@ -568,10 +830,7 @@ p.paragraphtext{
         border: none;
     }
 
-    .section2{
-            
 
-    }
 
     h2.h2-thick{
         font-weight: 4rem;
@@ -638,15 +897,15 @@ p.paragraphtext{
 
     .imagecontainer{
         display: flex;
-        width: 80%;
-        height: 20rem;
+        width: 100%;
+        height: 18rem;
         border: none;
         padding: 0;
     
     }
 
     img{
-        width: 320px;
+        width: 100%;
         margin: 0;
         border: none;
     }
@@ -670,61 +929,7 @@ p.paragraphtext{
         
     }
 
-    .section6box{
-        background-color: royalblue;
-        color:white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        margin: 0px;
-        border: none;
-        
-    }
-
-    .section6-text{
-        width: 70%;
-        border: none;
-        margin:0 ;
-        
-    }
     
-    .section6-col{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        padding: 5px 0 10px 0;
-        border: none;
-        align-items: center;
-        
-    
-    }
-    
-    .section6-row{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-        border: none;
-    
-    }
-
-    .imagecontain{
-        display: flex;
-        width: 80%;
-        background-position: center;
-        background-size: cover;
-        flex-grow: 1;
-        flex-shrink: 0;
-        overflow: hidden;
-        border: none;
-    }
-
-
-
     .section4{
         display: flex;
         flex-direction: column;
@@ -734,12 +939,11 @@ p.paragraphtext{
 
     .fullimage2{
         border: none;
-        width: 100%;
+        width: 90%;
         display: flex;
-        justify-content: center;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 30px;
+        margin-bottom: 150px;
+        margin-top: 20px;
+        
         
         
         
@@ -766,9 +970,20 @@ p.paragraphtext{
         align-items: center;
         align-content: center;
         margin: 0 auto;
-        padding: 30px 0;
+        padding: 0;
         text-align: center;
     }
+
+    h2.tittletext{
+        font-size: 2.4rem;
+        margin-bottom: 0rem;
+        padding-left: 0;
+        width: 80%;
+        text-align: left;
+        
+        
+    }
+
 
     button{
         align-content: center;
@@ -820,18 +1035,59 @@ p.paragraphtext{
     }
 
 
-    .section6-text{
-        width: 70%;
-        margin: 30px auto;
+    .section6box{
+        background-color: royalblue;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
         border: none;
         
+    }
+
+    .section6{
+        padding: 0;
+    }
+
+
+    .section6-text{
+        width: 80%;
+        border:none;
+        
+    }
+    
+    .section6-col{
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+    
+    }
+    
+    .section6-row{
+        display: flex;
+        flex-direction: column;
+        width: 200%;
+    }
+    
+    
+    .imagecontain{
+        display: flex;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        flex-grow: 1;
+        flex-shrink: 0;
+        overflow: hidden;
+        border: none
     }
 
     .double-btn{
         width: fit-content;
         display: flex;
         flex-direction: column;
-
         margin: auto;
     }
     
@@ -860,9 +1116,6 @@ p.paragraphtext{
         font-size: 2rem;
     }
     
-
-
-
 
 
 
